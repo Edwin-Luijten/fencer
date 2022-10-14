@@ -1,0 +1,7 @@
+@use 'vuetify' with (
+$border-radius-root: 0,
+);
+
+.v-dialog .v-overlay__content > .v-card, .v-dialog .v-overlay__content > .v-sheet, .v-card {
+  border-radius: 0 !important;
+}

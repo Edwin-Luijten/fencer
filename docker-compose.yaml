@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  fencer:
+    container_name: fencer
+    build: .
+    ports:
+      - "7353:8080"
